@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgVw"
+        android:layout_width="wrap_content"
+        android:layout_height="385dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/barrafina" />
+
+    <TextView
+        android:id="@+id/txtVwRest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtVwDesc"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="43dp"
+        android:layout_weight="1"
+        android:shadowColor="#7F000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="25"
+        android:text="Restaurante"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtVwDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgVw"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="165dp"
+        android:layout_weight="1"
+        android:paddingTop="10dp"
+        android:shadowColor="#7F000000"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="25"
+        android:text="Descripcion"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="17dp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
